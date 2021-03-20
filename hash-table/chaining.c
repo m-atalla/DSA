@@ -87,7 +87,7 @@ int main()
     insert(ht, 18);
     insert(ht, 49);
     insert(ht, 58);
-    insert(ht, 69); // nice
+    insert(ht, 69);
     insert(ht, 99);
 
     print_table(ht);
