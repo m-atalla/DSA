@@ -1,4 +1,4 @@
 # DSA
-Common data structures and algorithms implementations in the C programming language.
+Common data structures and algorithms implementations.
 
 Hopefully a good reference point for myself. :smiley:
