@@ -85,7 +85,7 @@ vertex_t * create_vertex(int dest) {
  * Creates following edges in an undirected graph
  * src => dest, dest => src
  */
-void addEdge(graph_t * graph, int src, int dest) {
+void add_edge(graph_t * graph, int src, int dest) {
     vertex_t *new_vertex = create_vertex(dest);
 
     // Create an edge from src to dest
@@ -105,13 +105,13 @@ int main(int argc, char const *argv[])
 {
     graph_t *graph = create_graph(5);
 
-    addEdge(graph, 0, 1); 
-    addEdge(graph, 0, 4); 
-    addEdge(graph, 1, 2); 
-    addEdge(graph, 1, 3); 
-    addEdge(graph, 1, 4); 
-    addEdge(graph, 2, 3); 
-    addEdge(graph, 3, 4); 
+    add_edge(graph, 0, 1); 
+    add_edge(graph, 0, 4); 
+    add_edge(graph, 1, 2); 
+    add_edge(graph, 1, 3); 
+    add_edge(graph, 1, 4); 
+    add_edge(graph, 2, 3); 
+    add_edge(graph, 3, 4); 
 
     print_graph(graph);
     return 0;
